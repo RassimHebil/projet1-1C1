@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerie PixelCode</title>
+    <link rel="stylesheet" href="style.css">
+<style> * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    background-color: rgb(212, 212, 212);
+    color: black;
+}
+
+header {
+    background-color: darkolivegreen;
+    color: black;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.project {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+
+.project img {
+    width: 100%;
+    display: block;
+}
+
+.project h2 {
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+.project p {
+    margin: 0 1rem 1rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: darkolivegreen;
+    color: black;
+    margin-top: 2rem;
+}
+</style>
+</head>
+<body>
+
+    <header>
+        <h1> &#128526; réalisation Nuageuses</h1>
+        <p>On peut pas faire mieux</p>
+    </header>
+
+    <main class="gallery">
+        
+        <section class="project">
+            <img src="https://sysracks.com/wp-content/uploads/2024/09/image-def-reseau-informatique.png" alt="Sécurité">
+            <h2>SécureMAX</h2>
+            <p>Une réseau qui ne laisse même pas l'air passer</p>
+        </section>
+
+        <section class="project">
+            <img src="https://fcmicro.net/wp-content/uploads/2022/09/Audit-informatique-Tout-comprendre-FC-MICRO.webp" alt="données">
+            <h2>Données en rang</h2>
+            <p>Des données informatique aussi bien ranger que les pages livres.</p>
+        </section>
+
+        <section class="project">
+            <img src="https://www.daillac.com/wp-content/uploads/2023/09/montage-different-industries-sectors-eg-healthcare-finance-legal.webp" alt="développement">
+            <h2>développement de web sites</h2>
+            <p>Création de sites web mieux que google</p>
+        </section>
+
+        <section class="project">
+            <img src="https://images.prismic.io/devtitechnologie/Z9cPNTiBA97Gihnp_D%C3%A9veloppementd%27applicationmobileTop10Frameworksen2025.jpg?auto=format%2Ccompress&fit=max&w=2048" alt="applications">
+            <h2>Applications PRO MAX</h2>
+            <p>Création d'applications êxtremement développer mieux que Microsoft.</p>
+        </section>
+
+        <section class="project">
+            <img src="https://www.informatiqueamerix.com/wp-content/uploads/2024/01/Informatique-Amerix-JAN.BLOG_.2024-Les-avantages-de-la-gestion-proactive-de-parc-informatique.png" alt="management">
+            <h2>Manage-mille</h2>
+            <p>Le management des données, même Elon Musk est pas aussi investie.</p>
+        </section>
+    </main>
+    <a href="équipe.html"> Satisfait c'est par ici.</a>
+
+    <footer>
+        <p>© 2025 Les Nuages – Tous droits réservés - ne pas voler svp</p>
+    </footer>
+
+</body>
+</html>
